@@ -1,0 +1,106 @@
+/*HEADER & NAVIGATION & FOOTER*/
+
+body {
+    font-family: Arial, San-Serif;
+    font-size: 100%;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+ul li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.header {
+    padding: 25px 0;
+    background-color: yellowgreen;
+}
+.header h1 {
+    color: greenyellow;
+    text-align: center;
+    font-size: 56px;
+}
+.navigation{
+    background-color: #222;
+    border-color: #101010;
+    min-height: 64px;
+}
+.navigation li{
+    float: left;
+    width: 100px;
+}
+.navigation a{
+    display: block;
+    color: #9d9d9d;
+    line-height: 4em;
+    font-weight: bold;
+    text-align: center;
+}
+.navigation li a:hover{
+    color: yellowgreen;
+    background-color: black;
+}
+footer{
+    background-color: yellowgreen;
+    color: white;
+    padding: 20px 0;
+    margin-top: 50px;
+}
+
+/*GENERAL*/
+
+.subtitle{
+    margin: 30px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #777;
+    font-size: 36px;
+}
+.general img{
+    padding: 10px 400px 10px 400px;
+    width: 500px;
+}
+.general p{
+    padding-left: 400px;
+    padding-right: 400px;
+    font-size: 30px;
+    text-align: center;
+}
+
+/*HOBBIES*/
+
+.hobbies{
+    font-size: 30px;
+    text-align: center;
+}
+.container{
+    margin: 10px 80px 10px 160px ;
+}
+.item{
+    display: inline-block;
+    float: left;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 400px;
+    box-sizing: border-box;
+}
+.item figcaption,
+.item_2 figcaption{
+    font-size: 20px;
+    text-align: center;
+}
+.item_2 img{
+    width: 940px;
+}
+
+/*CONTACTS*/
+
+.contacts li{
+    margin: 10px 0px 10px 30px ;
+    font-size: 20px;
+}
+
+
+
