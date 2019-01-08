@@ -1,7 +1,7 @@
 /*HEADER & NAVIGATION & FOOTER*/
 
 body {
-    font-family: Arial, San-Serif;
+    font-family: Arial, serif;
     font-size: 100%;
 }
 ul{
@@ -43,11 +43,24 @@ a{
     color: yellowgreen;
     background-color: black;
 }
-footer{
+footer {
     background-color: yellowgreen;
     color: white;
     padding: 20px 0;
     margin-top: 50px;
+}
+
+    /*DROPDOWN*/
+
+.sub-menu {
+    display: none;
+    position: absolute;
+    width: auto;
+    top: auto;
+}
+
+.about:hover .sub-menu {
+    display: block;
 }
 
 /*GENERAL*/
@@ -97,9 +110,15 @@ footer{
 
 /*CONTACTS*/
 
+.contacts {
+    margin-bottom: 100px;
+}
 .contacts li{
-    margin: 10px 0px 10px 30px ;
+    margin: 10px 0 10px 30px ;
     font-size: 20px;
+}
+.fa-facebook-f {
+    color: #4267b2;
 }
 
 
